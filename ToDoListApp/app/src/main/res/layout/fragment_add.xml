@@ -57,10 +57,11 @@
         app:layout_constraintTop_toBottomOf="@+id/des_add" />
 
     <Button
-        android:id="@+id/add_button_edit"
+        android:id="@+id/add_button"
         android:layout_width="423dp"
         android:layout_height="51dp"
-        android:layout_marginTop="73dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="80dp"
         android:backgroundTint="#FF7B79"
         android:text="ADD TODO"
         android:textColor="#F8F5F5"
@@ -68,20 +69,19 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/date_add"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintTop_toBottomOf="@+id/date_add" />
 
     <ImageView
         android:id="@+id/date_button_add"
-        android:layout_width="28dp"
-        android:layout_height="26dp"
+        android:layout_width="22dp"
+        android:layout_height="23dp"
         android:background="#F1ECEC"
         android:src="@drawable/ic_baseline_calendar_today_24"
         app:layout_constraintBottom_toBottomOf="@+id/date_add"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.681"
+        app:layout_constraintHorizontal_bias="0.73"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/des_add"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintVertical_bias="0.847" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

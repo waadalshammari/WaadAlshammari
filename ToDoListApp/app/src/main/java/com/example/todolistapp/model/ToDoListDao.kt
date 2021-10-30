@@ -17,5 +17,5 @@ interface ToDoListDao {
     suspend fun updateItem (toDoListModel: ToDoListModel)
 
     @Delete
-    suspend fun deletItem(toDoListModel: ToDoListModel)
+    suspend fun deleteItem(toDoListModel: ToDoListModel)
 }
