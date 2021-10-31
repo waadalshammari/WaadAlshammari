@@ -36,7 +36,7 @@ class ToDoListRepositry (context: Context) {
         }
 
         fun get(): ToDoListRepositry {
-            return instance ?: throw Exception("To Do List App Repository must be initialized")
+            return instance ?: throw Exception("To Do List Repository must be initialized")
         }
     }
 }
