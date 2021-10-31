@@ -27,8 +27,6 @@ class ToDoListRepositry (context: Context) {
     suspend fun updateItem(todoListModel: ToDoListModel) = ToDoListDao.updateItem(todoListModel)
     suspend fun deleteItem(todoListModel: ToDoListModel) = ToDoListDao.deleteItem(todoListModel)
 
-
-    // Test
     companion object {
         private var instance: ToDoListRepositry? = null
 
