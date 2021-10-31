@@ -28,6 +28,7 @@ class ToDoListRepositry (context: Context) {
     suspend fun deleteItem(todoListModel: ToDoListModel) = ToDoListDao.deleteItem(todoListModel)
 
 
+    // Test
     companion object {
         private var instance: ToDoListRepositry? = null
 
@@ -37,7 +38,7 @@ class ToDoListRepositry (context: Context) {
         }
 
         fun get(): ToDoListRepositry {
-            return instance ?: throw Exception("Inventory Repository must be initialized")
+            return instance ?: throw Exception("To Do List App Repository must be initialized")
         }
     }
 }
